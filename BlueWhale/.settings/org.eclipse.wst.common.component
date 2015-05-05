@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="BlueWhale">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/.apt_generated"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/BlueWhaleCommon"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/BlueWhaleMap"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resource"/>
+        <dependent-module archiveName="commons-logging-1.1.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/apache/commons-logging-1.1.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-3.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/spring-core-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="validation-api-1.0.0.GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/validation/validation-api-1.0.0.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aopalliance-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/aopalliance-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-3.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/spring-expression-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aspects-3.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/spring-aspects-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-logging-3.1.0.CR2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/validation/jboss-logging-3.1.0.CR2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mchange-commons-java-0.2.3.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/c3p0/mchange-commons-java-0.2.3.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-validator-4.3.2.Final.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/validation/hibernate-validator-4.3.2.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.25-bin.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/mysql/mysql-connector-java-5.1.25-bin.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-portlet-3.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/spring-webmvc-portlet-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-support-3.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/spring-context-support-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-mapper-asl-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/json/jackson-mapper-asl-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aspectjrt-1.7.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/aspectjrt-1.7.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-3.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/spring-jdbc-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mybatis-spring-1.2.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/mybatis/mybatis-spring-1.2.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-3.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/spring-webmvc-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.17.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/log4j/log4j-1.2.17.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mybatis-3.2.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/mybatis/mybatis-3.2.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-3.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/spring-web-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="c3p0-0.9.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/c3p0/c3p0-0.9.2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-3.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/spring-context-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-3.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/spring-tx-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-3.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/spring-aop-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-3.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/spring-beans-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-asl-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/json/jackson-core-asl-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ehcache-2.8.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/ehcache/ehcache-2.8.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-3.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/spring-orm-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aspectjweaver-1.7.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/aspectjweaver-1.7.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-struts-3.2.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/BlueWhaleLib/lib/spring/spring-struts-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="BlueWhale"/>
+        <property name="java-output-path" value="/BlueWhale/WebContent/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>
