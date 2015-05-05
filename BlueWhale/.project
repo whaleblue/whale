@@ -37,17 +37,17 @@
 		<link>
 			<name>BlueWhaleCommon</name>
 			<type>2</type>
-			<location>E:/workspace/BlueWhaleCommon/src</location>
+			<location>E:/git/whale/BlueWhaleCommon/src</location>
 		</link>
 		<link>
 			<name>BlueWhaleMap</name>
 			<type>2</type>
-			<location>E:/workspace/BlueWhaleMap/src</location>
+			<location>E:/git/whale/BlueWhaleMap/src</location>
 		</link>
 		<link>
 			<name>resource</name>
 			<type>2</type>
-			<location>E:/workspace/BlueWhaleCommon/resource</location>
+			<location>E:/git/whale/BlueWhaleCommon/resource</location>
 		</link>
 	</linkedResources>
 </projectDescription>
