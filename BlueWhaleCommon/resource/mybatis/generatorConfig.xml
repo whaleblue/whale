@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+  <classPathEntry location="E:/workspace/CommonLib/EarContent/lib/mysql/mysql-connector-java-5.1.25-bin.jar"/>
+  <context id="context1" >
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/blue_whale" userId="root" password="tanggf" />
+    <javaModelGenerator targetPackage="com.bwc.mybatis.model" targetProject="BlueWhaleMap" />
+    <sqlMapGenerator targetPackage="com.bwc.mybatis.model.mapper" targetProject="BlueWhaleMap" />
+    <javaClientGenerator targetPackage="com.bwc.mybatis.model.client" targetProject="BlueWhaleMap" type="XMLMAPPER" />
+    <table schema="bootstrap" tableName="BW_MAP_BRAND" >
+      <!-- <columnOverride column="???" property="???" /> -->
+    </table>
+    <table schema="bootstrap" tableName="BW_MAP_BRAND_ENTITY" >
+    </table>    
+    <table schema="bootstrap" tableName="BW_TB_SEQUENCE" >
+    </table>
+  </context>
+</generatorConfiguration>
